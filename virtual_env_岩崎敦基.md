@@ -188,7 +188,7 @@ $ php -r "unlink('composer-setup.php');"
 ```
 
 ## どのディレクトリにいてもcomposerコマンドを使用できるようfileの移動を行います
-```
+```shell
 $ sudo mv composer.phar /usr/local/bin/composer
 $ composer -v
 ```
@@ -197,7 +197,7 @@ $ composer -v
 現在ゲストOSにログインしている人は一旦 exit コマンドを実行してログアウトしてください。  
 その後、以下のコマンドを自身の環境に合わせて実行し、Laravelプロジェクトのコピーを vagrant_testディレクトリ下に作成します。
 
-```
+```shell
 $ cd vagrant_test
 $ cp -r laravel_appディレクトリまでの絶対パス ./
 ```
